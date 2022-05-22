@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: beige;
+}
+
+.container{
+    display: flex;
+    width: 70%;
+    max-width: 1700px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container .justify-content {
+    display: flex;
+    text-align: justify;
+    flex-direction: row;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+}
+
+nav .nav {
+    padding: .5em 0em;
+}
+
+
+nav .container ul li {
+    display: inline;
+    padding: .2em;
+}
+
+nav .container ul li a{
+    font-size: 1em;
+    color: yellow;
+    padding: .8em 1em;
+    border-radius: 10px;
+}
+
+nav .container ul li a:hover{
+    color: black;
+    background-color: purple;
+}
+
+
+section .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 70%;
+    height: 95vh;
+    max-width: 1700px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 1.4em;
+}
+
+.bienvenida .down {
+    margin-top: 2em;
+}
+
+.bienvenida {
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    margin: auto;
+    padding: 20px;
+    background-color: beige;
+}
+
+.conoceme {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    margin: 60px;
+    background-color: beige;
+}
+
+.contacto {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    margin: auto;
+    background-color: beige;
+}
+
+.bienvenida {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    margin: auto;
+    padding: 50px;
+    background-color: beige;
+}
+
+.referidos {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    margin: auto;
+    padding: 50px;
+    background-color: beige;
+}
+
+.galeria {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    background-color: beige;
+    margin: auto;
+    padding: 60px;
+}
+
+.galeria2 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    background-color: beige;
+}
+
+.texto1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    background-color: beige;
+}
+
+.logo img {
+    height: 80px;
+    margin-right: 20px;
+}
+
+.arteurbano {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    background-color: beige;
+}
+
+.DOODLES {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    background-color: beige;
+}
+
+.down {
+    border: none;
+    cursor: pointer;
+    padding: 30px;
+    color: white;
+    font-size: 50px;
+    transition: .3s ease all;
+}
+
+
+.my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
